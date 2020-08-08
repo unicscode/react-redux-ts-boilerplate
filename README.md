@@ -61,9 +61,3 @@ It's a template for React application with Typescript, Jest library and other st
 
 ### Useful information
 
-I focused on separate logic from presentation layer of component, so components are created according to this scheme:
-
-- **index.tsx** - main file with component declaration. You can put here a React Hooks features (eg.: useState, useEffects etc.), prepare component props, do some base logic etc. This file should return component view layer with component props set.
-- **Component.tsx** - file with view layer of component.
-- **Component.scss** - file with component style declaration.
-- **handlers.ts** - file where You can place useful function for component.
